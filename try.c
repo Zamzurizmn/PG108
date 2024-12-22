@@ -148,7 +148,7 @@ int detecte_plein() {
 void afficher_temps_total() {
     end_time = clock(); // Fin du chronomètre
     temps_total += (float)(end_time - start_time) / CLOCKS_PER_SEC;
-    printf("\nTemps total de jeu : %.2f secondes.\n", temps_total);
+    printf("\nTemps total de jeu : %.2f secondes.\n", temps_total); // Affichage du temps total
 }
 
 int main() {

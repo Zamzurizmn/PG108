@@ -221,7 +221,7 @@ void afficher_temps_vainqueur(){
     end_time=clock();
     time_total =((double)(end_time-start_time))*1000 /CLOCKS_PER_SEC;
     double temps_moyen = time_total/total_tours;
-    printf("temps total de : %.2lf secondes \n",temps_moyen);
+    printf("temps total de : %.2lf secondes \n",temps_moyen); //affichage du temps total
 }
 
 /*fonction pour afficher le local time*/
